@@ -1,0 +1,32 @@
+{
+  "name": "Website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "watch": {
+    "tailwind:build": {
+      "patterns": [
+        "public"
+      ],
+      "extensions": "html",
+      "ignore": "dist"
+    }
+  },
+  "scripts": {
+    "build:css": "postcss ./src/tailwind.css -o ./public/dist/styles.css",
+    "tailwind:build": "npm run build:css",
+    "watch:css": "npm-watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/jit": "^0.1.18",
+    "autoprefixer": "^10.2.5",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.1.2"
+  },
+  "dependencies": {
+    "npm-watch": "^0.9.0"
+  }
+}
