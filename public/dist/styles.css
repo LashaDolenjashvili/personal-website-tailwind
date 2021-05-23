@@ -992,6 +992,9 @@ video {
 	box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 @media (min-width: 640px){ 
+	.sm\:block{
+		display: block;
+	} 
 	.sm\:w-40{
 		width: 10rem;
 	} 
@@ -1021,9 +1024,6 @@ video {
 	} 
 	.md\:grid{
 		display: grid;
-	} 
-	.md\:block{
-		display: block;
 	} 
 	.md\:hidden{
 		display: none;
