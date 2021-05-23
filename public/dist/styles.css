@@ -908,6 +908,10 @@ video {
 .underline{
 	text-decoration: underline;
 }
+.antialiased{
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
 .opacity-30{
 	opacity: 0.3;
 }
