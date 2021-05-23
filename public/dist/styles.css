@@ -1022,6 +1022,9 @@ video {
 	.md\:grid{
 		display: grid;
 	} 
+	.md\:block{
+		display: block;
+	} 
 	.md\:hidden{
 		display: none;
 	} 
