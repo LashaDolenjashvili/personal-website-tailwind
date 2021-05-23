@@ -495,9 +495,6 @@ video {
 .mb-0{
 	margin-bottom: 0px;
 }
-.mt-36{
-	margin-top: 9rem;
-}
 .mt-6{
 	margin-top: 1.5rem;
 }
@@ -665,14 +662,19 @@ video {
 .justify-center{
 	justify-content: center;
 }
-.gap-6{
-	gap: 1.5rem;
-}
 .gap-2{
 	gap: 0.5rem;
 }
 .gap-4{
 	gap: 1rem;
+}
+.gap-6{
+	gap: 1.5rem;
+}
+.space-x-3 > :not([hidden]) ~ :not([hidden]){
+	--tw-space-x-reverse: 0;
+	margin-right: calc(0.75rem * var(--tw-space-x-reverse));
+	margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
 }
 .rounded{
 	border-radius: 0.25rem;
@@ -995,14 +997,24 @@ video {
 	} 
 	.sm\:flex-row{
 		flex-direction: row;
+	} 
+	.sm\:space-x-6 > :not([hidden]) ~ :not([hidden]){
+		--tw-space-x-reverse: 0;
+		margin-right: calc(1.5rem * var(--tw-space-x-reverse));
+		margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
 	}
 }
 @media (min-width: 768px){ 
 	.md\:m-0{
 		margin: 0px;
 	} 
-	.md\:mt-24{
-		margin-top: 6rem;
+	.md\:mx-0{
+		margin-left: 0px;
+		margin-right: 0px;
+	} 
+	.md\:my-4{
+		margin-top: 1rem;
+		margin-bottom: 1rem;
 	} 
 	.md\:flex{
 		display: flex;
