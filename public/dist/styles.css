@@ -492,6 +492,10 @@ video {
 	margin-left: auto;
 	margin-right: auto;
 }
+.my-1{
+	margin-top: 0.25rem;
+	margin-bottom: 0.25rem;
+}
 .mt-2{
 	margin-top: 0.5rem;
 }
@@ -518,9 +522,6 @@ video {
 }
 .mr-2{
 	margin-right: 0.5rem;
-}
-.mr-1{
-	margin-right: 0.25rem;
 }
 .mt-0{
 	margin-top: 0px;
@@ -901,6 +902,10 @@ video {
 .text-gray-600{
 	--tw-text-opacity: 1;
 	color: rgba(75, 85, 99, var(--tw-text-opacity));
+}
+.text-gray-500{
+	--tw-text-opacity: 1;
+	color: rgba(107, 114, 128, var(--tw-text-opacity));
 }
 .text-gray-300{
 	--tw-text-opacity: 1;
