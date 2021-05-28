@@ -467,11 +467,20 @@ video {
 .absolute{
 	position: absolute;
 }
+.relative{
+	position: relative;
+}
 .top-14{
 	top: 3.5rem;
 }
 .top-0{
 	top: 0px;
+}
+.-bottom-2{
+	bottom: -0.5rem;
+}
+.left-6{
+	left: 1.5rem;
 }
 .z-40{
 	z-index: 40;
@@ -610,6 +619,9 @@ video {
 .max-w-lg{
 	max-width: 32rem;
 }
+.max-w-screen-xl{
+	max-width: 1280px;
+}
 .transform{
 	--tw-translate-x: 0;
 	--tw-translate-y: 0;
@@ -698,6 +710,9 @@ video {
 .border-t{
 	border-top-width: 1px;
 }
+.border-b-2{
+	border-bottom-width: 2px;
+}
 .border-red-500{
 	--tw-border-opacity: 1;
 	border-color: rgba(239, 68, 68, var(--tw-border-opacity));
@@ -722,6 +737,14 @@ video {
 	--tw-border-opacity: 1;
 	border-color: rgba(17, 24, 39, var(--tw-border-opacity));
 }
+.border-green-200{
+	--tw-border-opacity: 1;
+	border-color: rgba(167, 243, 208, var(--tw-border-opacity));
+}
+.border-gray-300{
+	--tw-border-opacity: 1;
+	border-color: rgba(209, 213, 219, var(--tw-border-opacity));
+}
 .bg-gray-900{
 	--tw-bg-opacity: 1;
 	background-color: rgba(17, 24, 39, var(--tw-bg-opacity));
@@ -733,6 +756,10 @@ video {
 .bg-gray-800{
 	--tw-bg-opacity: 1;
 	background-color: rgba(31, 41, 55, var(--tw-bg-opacity));
+}
+.bg-white{
+	--tw-bg-opacity: 1;
+	background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
 }
 .bg-gradient-to-r{
 	background-image: linear-gradient(to right, var(--tw-gradient-stops));
@@ -816,6 +843,10 @@ video {
 	padding-left: 0.5rem;
 	padding-right: 0.5rem;
 }
+.px-10{
+	padding-left: 2.5rem;
+	padding-right: 2.5rem;
+}
 .pb-6{
 	padding-bottom: 1.5rem;
 }
@@ -840,6 +871,9 @@ video {
 .pt-2{
 	padding-top: 0.5rem;
 }
+.pb-2{
+	padding-bottom: 0.5rem;
+}
 .text-center{
 	text-align: center;
 }
@@ -848,6 +882,9 @@ video {
 }
 .font-quicksand{
 	font-family: "Quicksand", sans-serif;
+}
+.font-serif{
+	font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 .text-2xl{
 	font-size: 1.5rem;
@@ -873,11 +910,22 @@ video {
 	font-size: 1.25rem;
 	line-height: 1.75rem;
 }
+.text-3xl{
+	font-size: 1.875rem;
+	line-height: 2.25rem;
+}
+.text-xs{
+	font-size: 0.75rem;
+	line-height: 1rem;
+}
 .font-semibold{
 	font-weight: 600;
 }
 .font-bold{
 	font-weight: 700;
+}
+.tracking-widest{
+	letter-spacing: 0.1em;
 }
 .text-white{
 	--tw-text-opacity: 1;
@@ -922,6 +970,10 @@ video {
 .text-\[\#6FDA44\]{
 	--tw-text-opacity: 1;
 	color: rgba(111, 218, 68, var(--tw-text-opacity));
+}
+.text-red-600{
+	--tw-text-opacity: 1;
+	color: rgba(220, 38, 38, var(--tw-text-opacity));
 }
 .underline{
 	text-decoration: underline;
