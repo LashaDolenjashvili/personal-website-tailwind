@@ -1,2 +1,2 @@
-# personal-website-tailwind
-Personal (Resume) Website Template built with TailwindCSS
+# Personal Website
+Personal (Resume) Website built with TailwindCSS
