@@ -723,6 +723,10 @@ video {
 	--tw-border-opacity: 1;
 	border-color: rgba(239, 68, 68, var(--tw-border-opacity));
 }
+.border-indigo-500{
+	--tw-border-opacity: 1;
+	border-color: #6366f1;
+}
 .border-\[\#14a800\]{
 	--tw-border-opacity: 1;
 	border-color: rgba(20, 168, 0, var(--tw-border-opacity));
@@ -1066,6 +1070,10 @@ video {
 .hover\:text-red-500:hover{
 	--tw-text-opacity: 1;
 	color: rgba(239, 68, 68, var(--tw-text-opacity));
+}
+.hover\:text-red-500:hover{
+	--tw-text-opacity: 1;
+	color: #6366f1;
 }
 .hover\:text-\[\#14a800\]:hover{
 	--tw-text-opacity: 1;
