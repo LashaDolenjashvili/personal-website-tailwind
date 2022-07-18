@@ -1071,7 +1071,7 @@ video {
 	--tw-text-opacity: 1;
 	color: rgba(239, 68, 68, var(--tw-text-opacity));
 }
-.hover\:text-red-500:hover{
+.hover\:text-indigo-500:hover{
 	--tw-text-opacity: 1;
 	color: #6366f1;
 }
