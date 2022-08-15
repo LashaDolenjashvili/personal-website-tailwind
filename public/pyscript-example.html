@@ -110,9 +110,12 @@
             <div class="flex items-center h-1/2">
                 <div class="flex flex-col items-center">
                     <h1 class="text-center">
-                        <span class="block pt-4 text-3xl font-semibold">
-                            Free Stuff
-                        </span>
+           <label class="label">Extract E-Mail Address</label>
+    <textarea class="textarea" placeholder="Text goes here" id="main_text">
+This article is contributed by Akhil Goel. If you like GeeksforGeeks and would like to contribute, you can also write an article using write.geeksforgeeks.org or mail your article to review-team@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+    </textarea>
+    <button class="button" id="extract_emails" pys-onClick="extract_emails">Extract</button>    
+    <pre id="emails"></pre> 
                     </h1>
                 </div>
             </div>
