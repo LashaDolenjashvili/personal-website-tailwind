@@ -104,19 +104,18 @@
     <!-- Main Section -->
     <main class="text-gray-800 mb-0 pb-0">
 
-        <div class="bg-fixed bg-cover bg-hero absolute bg-bottom top-0 w-full h-1/2 z-10"></div>
-        <div class="absolute w-full h-1/2 top-0 bg-gray-900 z-10 opacity-30"></div>
-
         <!-- Short Bio -->
         <section class="pt-10 pb-10 shadow-sm">
-            <div class="h-full"></div>
             <div class="max-w-prose mx-auto px-6">
                 <div>
                     <h2 class="text-center font-bold text-4xl" id="about">Extract E-Mail Address</h2>
-                    <div class="mt-4">
+                    <div class="mt-2">
+                        <div>
                        <textarea class="textarea" placeholder="Text goes here" id="main_text">
 This article is contributed by Akhil Goel. If you like GeeksforGeeks and would like to contribute, you can also write an article using write.geeksforgeeks.org or mail your article to review-team@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
                        </textarea>
+                       </div>
+                        
                        <button class="button" id="extract_emails" pys-onClick="extract_emails">Extract</button>    
                        <pre id="emails"></pre>
                     </div>
